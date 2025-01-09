@@ -1,13 +1,12 @@
 # Folkatech Backend Microservices
 
-This project is a backend microservices API built with Node.js, MongoDB, Redis, and Docker. It handles CRUD operations for user data, implements token-based authentication, caching for vehicle data, and consumes data from Kafka.
+This project is a backend microservices API built with Node.js, MongoDB, Redis, and Docker. It handles CRUD operations for user data, implements token-based authentication, and caching for vehicle data.
 
 ## Features
 
 - *CRUD Operations for User Data*: Allows creating, reading, updating, and deleting user data (ID, username, account number, email address, and identity number).
 - *Authentication*: Protects API routes with authorization using JWT (JSON Web Tokens).
 - *Redis Caching*: Implements a caching strategy using Redis for vehicle data to improve performance. Changes in the MongoDB database are synced to Redis.
-- *Kafka Consumer*: Consumes data from Kafka (optional, based on the implementation).
 - *Dockerized*: The app is fully containerized using Docker and Docker Compose for easy deployment and management.
 - *Environment Configuration*: Configurable environment variables for local and Dockerized environments.
 
